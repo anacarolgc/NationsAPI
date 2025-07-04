@@ -1,0 +1,12 @@
+### 🔄 Health Check
+GET http://localhost:3001/api/health HTTP/1.1
+
+###
+
+### ✅ Teste simples
+GET http://localhost:3001/api/test HTTP/1.1
+
+
+### 🇧🇷 Detalhes por nome completo
+GET http://localhost:3001/api/countries/Brazil HTTP/1.1
+Authorization: Bearer secrettoken123
